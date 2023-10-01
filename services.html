@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Green Landscapes Services</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- LIGHTBOX POPUP -->
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <!-- BOOTSTRAP 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css?2family=Prompt;wght@300&family=Roboto&display=swap" rel="stylesheet" />
+
+    <!-- FONT AWESOME 5 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- LINKS TO THE CSS PAGE -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body class="services">
+    <!-- NAVBAR SECTION START -->
+    <header id="full_nav">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar header-scrolled navbar-expand-lg">
+                    <a class="navbar-brand" href="/home.html">
+                        <img class="logo" src="/images/yellow_logo.png" alt="logo">
+                        <img class="logo logo-words" src="/images/yellow_words_logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <i class="fas fa-stream navbar-toggler-icon"></i>
+                        <!--
+                        <svg class="fas fa-stream navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        -->
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="header_right">
+                            <div class="text-lg-end">
+                                <span>Call Us</span>
+                                <span class="phone_num">(757) 319-9377</span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- NAVBAR SECTION END -->
+
+    <!-- SERVICES LISTGROUP SECTION START -->
+    <section class="listgroup_section">
+        <div class="listgroup_container">
+            <section id="services" class="white p-bottom">
+                <h2 class="listgroup_title"> Services We Provide: </h2>
+                <!--Services-->
+                <div class="container" role="tabpanel">
+                    <!--List of Services-->
+                    <div class="row">
+                        <!--Service Titles-->
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="bckgrnd-color list-group-item list-group-item-action list-group-item-transparent active show" id="list-irrigation-list" data-bs-toggle="tab" href="#list-irrigation" role="tab" aria-controls="list-irrigation" aria-selected="true">Irrigation systems</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-outdoor-list" data-bs-toggle="tab" href="#list-outdoor" role="tab" aria-controls="list-outdoor" aria-selected="false">Outdoor creation and maintenance</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-flower-list" data-bs-toggle="tab" href="#list-flower" role="tab" aria-controls="list-flower" aria-selected="false"> Flower beds creation and Mulching</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-pest-list" data-bs-toggle="tab" href="#list-pest" role="tab" aria-controls="list-pest" aria-selected="false">Pest control</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-weed-list" data-bs-toggle="tab" href="#list-weed" role="tab" aria-controls="list-weed" aria-selected="false">Weed control</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-lawn-list" data-bs-toggle="tab" href="#list-lawn" role="tab" aria-controls="list-lawn" aria-selected="false">Lawn maintenance</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-leaf-list" data-bs-toggle="tab" href="#list-leaf" role="tab" aria-controls="list-leaf" aria-selected="false">Leaf removal</a>
+    
+                                <a class="list-group-item list-group-item-action" id="list-hedge-list" data-bs-toggle="tab" href="#list-hedge" role="tab" aria-controls="list-hedge" aria-selected="false">Hedge & shrub trimming</a>
+                                
+                                <a class="list-group-item list-group-item-action" id="list-rock-list" data-bs-toggle="tab" href="#list-rock" role="tab" aria-controls="list-rock" aria-selected="false">Rock installation and Mulch</a>
+                            </div>
+                        </div>
+                        <!--Service Descriptions-->
+                        <div class="col-8">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane txt-color active show" id="list-irrigation" role="tabpanel" aria-labelledby="list-irrigation-list">
+                                    We offer a comprehensive range of irrigation system services, from custom design and installation to routine maintenance and smart irrigation solutions. We specialize in maximizing water efficiency while enhancing the beauty of your landscape. With our expertise, you can enjoy a lush and thriving outdoor space while promoting responsible water management and sustainability.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-outdoor" role="tabpanel" aria-labelledby="list-outdoor-list">
+                                    At Royal Green Landscapes we specialize in crafting stunning outdoor spaces and providing meticulous maintenance services to ensure they remain vibrant year-round. Our team offers a wide range of outdoor creation and maintenance services, including landscape design, hardscape installation, plant selection and care, lawn maintenance, and seasonal cleanup. 
+                                </div>
+                                <div class="tab-pane txt-color" id="list-flower" role="tabpanel" aria-labelledby="list-flower-list">
+                                    Our mulching services provide protection, moisture retention, and an aesthetically pleasing finish to your landscape, while our flower bed creation transforms your outdoor space with thoroughly designed and planted beds, ensuring healthy growth and vibrant blooms. With our expertise, your outdoor environment will not only look beautiful but also thrive with proper care and attention.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-pest" role="tabpanel" aria-labelledby="list-pest-list">
+                                    Our company provides comprehensive pest control services to safeguard your outdoor spaces from invasive pests and ensure the health and beauty of your landscape. Our pest control services include the identification of common pests, targeted treatments, preventive measures, and ongoing monitoring to keep your outdoor oasis thriving and pest-free.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-weed" role="tabpanel" aria-labelledby="list-weed-list">
+                                    We offer expert solutions to identify and eradicate unwanted weeds, preventing them from overtaking your lawn, gardens, and landscapes. Our weed control services include proactive measures, safe herbicide applications, and ongoing maintenance to ensure your outdoor environment remains weed-free and flourishing.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-lawn" role="tabpanel" aria-labelledby="list-lawn-list">
+                                    Royal Green Landscapes is dedicated to keeping your lawn in impeccable condition with our professional lawn maintenance services. Our team offers a range of essential services to ensure a lush and healthy lawn, including mowing, edging, fertilization, and aeration. We take pride in transforming your outdoor space into a vibrant and well-manicured landscape, enhancing the overall beauty and curb appeal of your property.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-leaf" role="tabpanel" aria-labelledby="list-leaf-list">
+                                    Our landscaping company offers efficient and thorough leaf removal services to keep your outdoor spaces pristine and well-maintained. As the seasons change and leaves accumulate, our skilled team utilizes specialized equipment to clear your lawns, gardens, and walkways of fallen leaves quickly and effectively. With our leaf removal services, you can enjoy a tidy and attractive landscape throughout the year, ensuring your property remains clean and inviting.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-hedge" role="tabpanel" aria-labelledby="list-hedge-list">
+                                    Our expert team is skilled in the art of precision trimming, ensuring your hedges and shrubs are neatly shaped, healthy, and vibrant. We offer scheduled maintenance to keep your landscape looking its best, promoting proper growth, and enhancing the overall aesthetics of your property. With our hedge and shrub trimming services, your outdoor environment will always exude a well-groomed and welcoming appearance.
+                                </div>
+                                <div class="tab-pane txt-color" id="list-rock" role="tabpanel" aria-labelledby="list-rock-list">
+                                    Our landscaping company specializes in rock installation designed to elevate the aesthetics and functionality of your outdoor spaces. We carefully select and strategically place rocks to create stunning landscape features, pathways, borders, and more. With our services you can expect a durable and visually appealing addition to your property, adding a touch of natural beauty and character to your landscape design.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- SERVICES LISTGROUP SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <section class="footer_wrapper mt-3 mb-md-0">
+        <div class="container px-5 px-lg-0">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Landscape</h5>
+                    <p class="mb-4 ps-0 company_details">
+                        words go here
+                    </p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i>Address</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>757-319-9377</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>sales@royalgreenlandscapes.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Customer Support</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Quick Links</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="/home.html">Home</a></li>
+                        <li><a href="/services.html">Services</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
+                        <li><a href="/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul> 
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>Copyright <a href="#">© Landscape.</a> All Rights Resevered</p>
+        </div>
+    </section>
+    <!-- FOOTER SECTION END -->
+
+    <!-- SCRIPT FOR JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT FOR LIGHTBOX POPUP -->
+    <script src="lightbox.js"></script>
+
+    <!-- SCRIPT FOR BOOTSTRAP CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- SCRIPT FOR CUSTOM JS -->
+    <script src="main.js"></script>
+    <script src="functionality.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+/* MEDIA QUERY 1170px */
+@media (max-width: 1170px) {
+    /* GENERAL CSS */
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /* 02 BANNER SECTION */
+}
+
+/* MEDIA QUERY 991px */
+@media (max-width: 991px) {
+    /* GENERAL CSS */
+    .about .listgroup_section,
+    .projects .banner_section,
+    .services .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+
+    /* 01 NAVBAR CSS */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .header .header_right span {
+        padding: 0.2rem 0.5rem;
+    }
+}
+
+/* MEDIA QUERY 767px */
+@media (max-width: 767px) {
+    /* GENERAL CSS */
+    body, html {
+        font-size: 8px;
+    }
+    .section-subtitle {
+        max-width: 80%;
+    }
+
+    /* 02 BANNER SECTION */
+    .listgroup_section {
+        min-height: 70vh;
+    }
+ 
+}
+
+/* MEDIA QUERY 590px */
+@media (max-width: 590px) {
+    /* GENERAL CSS */
+    body, html {
+        font-size: 7px;
+    }
+}
