@@ -335,8 +335,9 @@ section {
 }
 
 
-
-/*  FOOTER CSS */
+/* ======================================
+    FOOTER CSS
+======================================= */
 .footer_wrapper {
     background: var(--secondary-color);
     background-size: cover;
@@ -349,6 +350,10 @@ section {
     color: var(--text-gray);
     font-size: 2.5rem;
     margin-bottom: 1.25rem;
+}
+.footer_wrapper .row {
+    justify-content: center;
+    text-align: center;
 }
 .footer_wrapper ul li {
     margin-bottom: 0.5rem;
@@ -383,6 +388,12 @@ section {
 .footer_wrapper .link-widget li a:hover {
     margin-left: .625rem;
     color: var(--anchor-color);
+}
+.footer_wrapper .social-network {
+    margin: 0 25%;
+}
+.footer_wrapper .social-network li {
+    margin: 0 10%;
 }
 .footer_wrapper .social-network a {
     width: 3.5rem;
